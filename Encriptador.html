@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="Style-Encriptador.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="logoalura" src="imagenes/Frame 6.png" alt="Logo de Alura Latam">
+        </header>
+        <main>
+            <section>
+                <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto"></textarea>
+                <div>
+                    <h1 class="informacion">Solo letras minúsculas y sin acentos</h1>
+                </div>
+                <div class="Botones">
+                    <button class="B-encriptar" onclick="btnEncriptar()">Encriptar texto</button>
+                    <button class="B-desencriptar" onclick="btnDesencriptar()">Desencriptar texto</button>
+                </div>
+            </section>
+            <section>
+                <textarea class="mensaje" cols="20" rows="10"></textarea>
+                <div>
+                    <button class="copiar" onclick="copiar()">Copiar</button>
+                </div>
+            </section>
+        </main>
+        <script src="Script.js"></script>
+    </body>
+    <footer>
+        <img src="imagenes/Frame 6.png">
+        <p class="Copyright">&copy Copyright Jesús Durán Reto Alura - 2023</p>
+    </footer>
+
+</html>
